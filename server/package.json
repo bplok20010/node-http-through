@@ -1,0 +1,22 @@
+{
+  "author": "nobo<nobo.zhou@foxmail.com>",
+  "name": "node-http-through-server",
+  "description": "expose localhost to the world",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": {},
+  "dependencies": {
+    "commander": "^2.9.0",
+    "crypto-random-string": "^1.0.0",
+    "log4js": "^1.1.1",
+    "q": "^1.5.0",
+    "ws": "^0.8.0"
+  },
+  "devDependencies": {
+    "ws": "0.8.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js"
+}
